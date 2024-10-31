@@ -19,7 +19,7 @@ const posts = [
       { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifólio. É um projeto que fiz para treinar programação em HTML 🚀' },
       { type: 'link', content: 'github.com/josivaldo' },
     ],
-    publishedAt: new Date('2024-10-18 22:00:58'),
+    publishedAt: new Date('2024-10-28 22:00:58'),
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const posts = [
       { type: 'paragraph', content: 'Precisando arrumar seu pc, liga pra mim. 18 989898989.' },
       { type: 'link', content: 'arrumapc.com/contato' },
     ],
-    publishedAt: new Date('2024-10-17 21:05:15'),
+    publishedAt: new Date('2024-10-27 21:05:15'),
   },
   {
     id: 3,
@@ -47,7 +47,7 @@ const posts = [
       { type: 'paragraph', content: 'Vou apenas deixar uma mensagem de teste, para testar.' },
       { type: 'link', content: 'professordeti.com' },
     ],
-    publishedAt: new Date('2024-10-16 20:45:45'),
+    publishedAt: new Date('2024-10-26 20:45:45'),
   },
 ];
 
@@ -62,6 +62,7 @@ export function App() {
           {posts.map(post => {
             return (
               <Post 
+                key={post.id}
                 author={post.author}
                 content={post.content}
                 publishedAt={post.publishedAt}
@@ -71,7 +72,6 @@ export function App() {
         </main>
       </div>
     </div>
-  
   )
 }
 

@@ -17,7 +17,7 @@ export function Sidebar() {
         <Avatar src="https://media.licdn.com/dms/image/v2/D4D03AQGiqHvSJs-HXg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729175256274?e=1735171200&v=beta&t=UkTTnw8M31Qtz3gGWrph-76CAZ17TZzAa0ZyiFtsfmQ" />
         
         <strong>Lucas Tropardi</strong>
-        <span>Web Developer</span>
+        <span>Software Developer</span>
       </div>
       <footer>
         <a href="#">
